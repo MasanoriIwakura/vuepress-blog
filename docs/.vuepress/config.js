@@ -8,10 +8,10 @@ module.exports = {
     }
   },
   extend: '',
-  meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { name: 'theme-color', content: '#3eaf7c' }
+  head: [
+    ['meta', { name: 'google-site-verification', content: 'NTxNDXJuTwVCZflAjyI1VJj_H2YVQsMuJajvbjdhX1o'}],
+    ['script', {'async src': '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}],
+    ['script', {}, '(adsbygoogle=window.adsbygoogle || []).push({google_ad_client:"ca-pub-6478454960724435",enable_page_level_ads:true});']
   ],
   themeConfig: {
     nav: [
@@ -19,6 +19,7 @@ module.exports = {
       { text: 'Profile', link: '/profile/' },
       { text: 'Diary', link: '/dialy/' }
     ],
+    sidebar: 'auto',
     lastUpdated: 'Last Updated'
   }
 }
