@@ -5,7 +5,8 @@
   "author": "MasanoriIwakura",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "firebase deploy"
   },
   "devDependencies": {
     "vuepress": "^0.14.8"

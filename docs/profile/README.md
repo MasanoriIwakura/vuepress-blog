@@ -19,7 +19,7 @@ Level：五段階評価(⭐)
 |JavaScript|⭐⭐|
 |TypeScript|⭐|
 
-## FrameWorks
+## Frameworks
 
 ### C#, VB.NET
 
@@ -37,7 +37,7 @@ Level：五段階評価(⭐)
 |Django|1.11.7|
 |Flask|1.0.2|
 
-※Pythonは触った態度
+※Pythonは触った程度
 
 ### Java
 
