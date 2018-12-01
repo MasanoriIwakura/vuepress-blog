@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - "8"
+
+cache: yarn
+
+branches:
+  only:
+  - master
+
+install:
+  - yarn add global firebase-tools
+
+after_success:
+  - yarn docs:build
+  - yarn docs:deploy
+
+script:
+  - echo "Skipping tests"
+
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: $FIREBASE_TOKEN
+  project: $FIREBASE_PROJECT
